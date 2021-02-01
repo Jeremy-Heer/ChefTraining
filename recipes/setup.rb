@@ -13,7 +13,6 @@ package 'Install git' do
   action :install
 end
 
-
 file '/etc/motd' do
   content 'This server is the property of Jeremy'
   owner 'root'
